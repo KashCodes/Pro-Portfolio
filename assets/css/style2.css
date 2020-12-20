@@ -9,56 +9,57 @@
 
 * {
   margin: 0;
-  Padding: 0;
+  padding: 0;
 }
-
 
 /* Header Navigation */
 header {
-        padding: 20px 35px;
-        background-color: var(--primary-color);
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-      }
+  padding: 20px 35px;
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 
-      header h1 {
-        font-weight: bold;
-        margin: 0;
-        font-size: 36px;
-        color: var(--primary-font-color);
-        font-family: "Courier New", Courier, monospace;
-        text-shadow: -1px 0px 3px var(--shadow-border-color), -1px 0px 3px var(--shadow-border-color);
-      }
-      
-      header a {
-        text-decoration: none;
-        color: var(--primary-font-color);
-      }
-      
-      header nav {
-        margin: 7px 0;
-      }
-      
-      header nav ul {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: center;
-        list-style: none;
-      }
+header h1 {
+  font-weight: bold;
+  margin: 0;
+  font-size: 36px;
+  color: var(--primary-font-color);
+  font-family: "Courier New", Courier, monospace;
+  text-shadow: -1px 0px 3px var(--shadow-border-color),
+    -1px 0px 3px var(--shadow-border-color);
+}
 
-      header nav ul li a {
-        margin: 0 30px;
-        font-weight: lighter;
-        font-size: 1.55vw;
-        font-family: "Courier New", Courier, monospace;
-        text-shadow: -1px 0px 3px var(--shadow-border-color), -1px 0px 3px var(--shadow-border-color);
-      }
+header a {
+  text-decoration: none;
+  color: var(--primary-font-color);
+}
+
+header nav {
+  margin: 7px 0;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+header nav ul li a {
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 1.55vw;
+  font-family: "Courier New", Courier, monospace;
+  text-shadow: -1px 0px 3px var(--shadow-border-color),
+    -1px 0px 3px var(--shadow-border-color);
+}
 
 /* Hero */
 .hero {
-  background-image: url('../images/tron2.jpg');
+  background-image: url("../images/tron2.jpg");
   background-size: cover;
   background-position: center;
   height: 400px;
@@ -66,30 +67,26 @@ header {
   justify-content: flex-end;
   flex-wrap: wrap;
   border-bottom: 5px solid var(--shadow-border-color);
-  
 }
 
 .hero-title {
   font-family: "Courier New", Courier, monospace;
   color: var(--primary-font-color);
-  text-shadow: -1px 0px 3px var(--shadow-border-color), -1px 0px 3px var(--shadow-border-color);
-  
+  text-shadow: -1px 0px 3px var(--shadow-border-color),
+    -1px 0px 3px var(--shadow-border-color);
 }
 
 /* Main Body */
 .main {
- display: grid;
- grid-template-columns: repeat(8, 1fr);
- grid-template-rows: repeat(5, 1fr);
- grid-gap: 20px;
- grid-auto-flow: row;
- margin: 20px 50px 50px 0;
- 
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap: 20px;
+  grid-auto-flow: row;
+  margin: 20px 50px 50px 0;
 }
 
 .body-title {
-  
-  
 }
 
 .body-box {
@@ -98,34 +95,31 @@ header {
   padding: 5px 10px 10px 10px;
   font-family: "Courier New", Courier, monospace;
   color: var(--primary-font-color);
-  text-shadow: -1px 0px 3px var(--shadow-border-color), -1px 0px 3px var(--shadow-border-color);
+  text-shadow: -1px 0px 3px var(--shadow-border-color),
+    -1px 0px 3px var(--shadow-border-color);
   font-size: 1.5rem;
 }
-
 
 /* About Me */
 
 .about-me-title {
- grid-column-start: 2;
-
+  grid-column-start: 2;
 }
 
 .about-me-p {
-  grid-column: 3/ span 8;
-  
+  grid-column: 3 / span 8;
 }
 
 /* Work */
 
 .work-title {
- grid-column: 2;
- grid-row: 2 / span 3;
- 
+  grid-column: 2;
+  grid-row: 2 / span 3;
 }
 
 .run-buddy {
   grid-column: 3 / span 4;
-  grid-row: 2/ span 2;
+  grid-row: 2 / span 2;
   border: 3px solid var(--shadow-border-color);
   background: url(../images/run-buddy.PNG);
   background: cover;
@@ -167,7 +161,6 @@ header {
 .contact-title {
   grid-column-start: 2;
   grid-row: 5;
- 
 }
 
 .contact-grid {
@@ -179,45 +172,43 @@ header {
   font-weight: bold;
   font-family: "Courier New", Courier, monospace;
   padding: 70px 0 0 0;
-  
 }
 
-.contact-grid div{
+.contact-grid div {
   display: flex;
   align-content: center;
-  
 }
 .phone {
   grid-column-start: 3;
   grid-row: 5;
   text-decoration: none;
-  
 }
 
 .email {
   grid-column-start: 4;
   grid-row: 5;
   text-decoration: none;
- 
 }
 
 .github {
   grid-column-start: 5;
   grid-row: 5;
   text-decoration: none;
-
 }
 
 .twitter {
   grid-column-start: 6;
   grid-row: 5;
   text-decoration: none;
-  
 }
 .spotify {
   grid-column-start: 7;
   grid-row: 5;
   text-decoration: none;
- 
 }
 
+.noDecoration, a,
+a:link,
+a:visited {
+  text-decoration: none !important;
+}
