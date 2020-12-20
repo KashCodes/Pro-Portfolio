@@ -103,6 +103,10 @@ header nav ul li a:hover {
   text-shadow: -1px 0px 3px var(--shadow-border-color),
     -1px 0px 3px var(--shadow-border-color);
   font-size: 1.60rem;
+  display: flex;
+  align-items: flex-end;
+  margin: 15px;
+
 }
 
 /* Main Body */
@@ -161,6 +165,8 @@ header nav ul li a:hover {
 
 .work-grid {
   border: 3px solid var(--shadow-border-color);
+  display:flex;
+  align-items: flex-end;
 }
 
 .title-link {
@@ -212,7 +218,9 @@ header nav ul li a:hover {
   grid-gap: 30px;
 }
 
-.contact-grid {
+
+
+.contact-grid a {
   text-decoration: none;
   color: var(--primary-font-color);
   text-shadow: -1px 0px 3px var(--shadow-border-color),
