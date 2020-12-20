@@ -16,6 +16,11 @@ body {
   background-color: rgb(227, 233, 233);
 }
 
+span {
+  background-color: rgba(64, 94, 105, 0.70);
+  padding: 5px;
+}
+
 /* Header Navigation */
 header {
   padding: 20px 35px;
@@ -110,10 +115,7 @@ header nav ul li a:hover {
 
 }
 
-span {
-  background-color: rgba(64, 94, 105, 0.70);
-  padding: 5px;
-}
+
 
 /* Main Body */
 .main {
@@ -155,6 +157,12 @@ span {
   color: var(--shadow-border-color);
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
+  text-align:justify;
+}
+
+.body-box p img {
+  float:right;
+  margin: 10px;
 }
 
 /* Work */
