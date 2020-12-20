@@ -102,6 +102,7 @@ header nav ul li a:hover {
   color: var(--primary-font-color);
   text-shadow: -1px 0px 3px var(--shadow-border-color),
     -1px 0px 3px var(--shadow-border-color);
+  font-size: 1.60rem;
 }
 
 /* Main Body */
